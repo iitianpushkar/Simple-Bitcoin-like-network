@@ -1,0 +1,19 @@
+{
+  "name": "central-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cs.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon cs.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.4",
+    "socket.io": "^4.7.5",
+    "ws": "^8.18.0"
+  }
+}

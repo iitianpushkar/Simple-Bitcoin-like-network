@@ -1,0 +1,25 @@
+{
+  "name": "miner-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ms.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ms.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bitcoinjs-lib": "^6.1.6",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "ejs": "^3.1.10",
+    "elliptic": "^6.5.7",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.4",
+    "path": "^0.12.7",
+    "portfinder": "^1.0.32",
+    "secp256k1": "^5.0.0",
+    "socket.io-client": "^4.7.5"
+  }
+}

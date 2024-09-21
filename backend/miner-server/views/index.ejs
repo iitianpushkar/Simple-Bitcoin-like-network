@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cards</title>
+  <style>
+    .card-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+    .card {
+      border: 1px solid #ddd;
+      padding: 16px;
+      border-radius: 8px;
+      width: 200px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+  </style>
+</head>
+<body>
+  <div class="card-list">
+      <div class="card">
+        <h2> Block </h2>
+        <p>FROM:<%=cards.from %></p>
+        <p>TO:<%= cards.to %></p>
+        <p>AMOUNT:<%= cards.amount %></p>
+        <p>TIMESTAMP:<%= new Date().toISOString() %></p>
+      </div>
+  </div>
+</body>
+</html>
